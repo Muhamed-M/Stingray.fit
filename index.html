@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stingray</title>
+    <link rel="icon" href="images/logo/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <script src="https://kit.fontawesome.com/d69fe3d682.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Oswald&family=Parisienne&display=swap" rel="stylesheet">
+    <!--font-family: 'Dosis', sans-serif;-->
+    <!--font-family: 'Oswald', sans-serif;-->
+
+</head>
+<body>
+    <nav>
+        <span class="logo logo-small"><img src="images/logo/logo.png"></span>
+        <img class="hamburger-nav" src="images/icon-hamburger.svg">
+        <div class="nav">
+            <a href="#about">o meni</a>
+            <a href="#planovi">planovi</a>
+            <a href="#transformacije">transformacije</a>
+            <a href="#testimonials">testimonials</a>
+        </div>
+    </nav>
+    <header>
+        <div class="top">
+            <span class="logo"><img src="images/logo/logo.png"></span>
+            <img class="hamburger-nav" src="images/icon-hamburger.svg">
+            <div class="nav">
+                <a href="#about">o meni</a>
+                <a href="#planovi">planovi</a>
+                <a href="#transformacije">transformacije</a>
+                <a href="#testimonials">testimonials</a>
+            </div>
+        </div>
+        <h1 class="sign">BUILDING ATHLETES NOT EGOS!</h1>
+        <a href="https://forms.gle/DXuSGAZ7bQrJwnUP9" target="_blank" id="contactbtn">prijavi se</a>
+    </header>
+    <!--mobile navigation modal-->
+    <div id="mobile-nav">
+        <img src="images/icon-close.svg">
+        <div class="nav">
+            <a href="#about">o meni</a>
+            <a href="#planovi">planovi</a>
+            <a href="#transformacije">transformacije</a>
+            <a href="#testimonials">testimonials</a>
+        </div>
+    </div>
+    <div class="down">
+        <span class="fas fa-angle-down"></span>
+        <span class="fas fa-angle-down"></span>
+        <span class="fas fa-angle-down"></span>
+    </div>
+
+    <section class="improve">
+        <div class="box">
+            <img src="images/dumbbell.svg">
+            <h3>UNAPRIJEDI ZDRAVLJE</h3>
+            <p>
+             Mentor će ti pomoći da lakše otkriješ kakva ishrana i trening odgovaraju tvome tijelu, da izgradiš zdrave navika i podigneš zdravlje i kondiciju na viši nivo.
+            </p>
+        </div>
+        <div class="box">
+            <img src="images/woman.svg">
+            <h3>Popravi posturu</h3>
+            <p>
+              Zbog previše sjedenja i nedostatka aktivnosti naše tijelo gubi funkcije i to kompenzuje krivljenjem posture što dugoročno dovodi do problema i bolova. Stingray specijalizacija u posljednjih godinu dana se odnosi upravo na vraćanje posture i opsega pokreta kroz trening snage.
+            </p>
+        </div>
+        <div class="box">
+            <img src="images/muscle.svg">
+            <h3>Izgledaj kako oduvijek želiš</h3>
+            <p>
+              Gubljenjem masnih naslaga i dobivanjem mišične mase na ciljanim područijima.
+            </p>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container-about">
+            <div class="text-content">
+                <h1 class="naslov">Ko je Stingray</h1>
+                <p class="m-b-md">
+                    Trener, sportista, nutricionista, bivši pripadnik specijalne jedinice sa 10+ godina iskustva u treningu snage i mnogim sportovima poput atletike, gimnastike i borilačkih vještina. Nakon stečene diplome mašinskog inžinjera i 5 godina rada  u specijalnoj jedinici policije počinje svoj put kao mentor/trener. Najveći uspjeh u ovom poslu je iskustvo u radu sa stotinama ljudi i mnogo transformacija tijela, uma i životnog stila.
+                </p>
+                <p class="m-b-md">
+                    Ideja Stingray pristupa polazi od rada na vještinama iza kojih se krije pravo samopouzdanje, a izgled dolazi kao nusprodukt. Kvalitet rada i usluge se unaprijeđuje svakodnevno.
+                </p>
+                <p class="m-b-md">
+                    Promjena navika, edukacija o treningu, ishrani i zdravom, balansiranom načinu života. 
+                </p>
+                <p class="m-b-md">
+                    Naš program je namijenjen ljudima koji žele da unaprijede svoju kretnju, snagu, mobilnost ali i izgled. Također ljudima koji sa došli na plato u svome treningu i trebaju pomoć oko postizanja naprednijih ciljeva.
+                </p>
+                <p class="m-b-md">
+                    U naš program treninga su uvrštene powerlifting vježbe snage, kretnje (animal flow) i mobilnosti. Sa ljudima radimo na nešto drugačiji način, da bi postigli optimalno zdravlje, izgled ali i vještine iza kojih se krije pravo samopouzdanje. Generalni cilj nije samo izgledati dobro, nego taj izgled zaraditi vještinom. 
+                </p>
+            </div>
+            <img src="images/aboutimg.jpg">
+        </div>
+    </section>
+
+    <section class="videos">
+        <div class="video-player">
+            <img src="images/icon-close.svg">
+            <video src="" autoplay controls></video>
+        </div>
+        <ul>
+            <li onclick="videoModal('videos/1.mp4')">
+                <img src="images/th1.png">
+                <i class="fas fa-play"></i>
+            </li>
+            <li onclick="videoModal('videos/2.mp4')">
+                <img src="images/th2.png">
+                <i class="fas fa-play"></i>
+            </li>
+            <li onclick="videoModal('videos/3.mp4')">
+                <img src="images/th3.png">
+                <i class="fas fa-play"></i>
+            </li>
+        </ul>
+    </section>
+
+    <section class="price" id="planovi">
+        <h1 class="naslov">ODABERI SARADNJU</h1>
+        <div class="container-price">
+            <div class="box-price">
+                <h1>250€</h1>
+                <h6>online mentorstvo</h6>
+                <ul>
+                  <li>&#10003; 3 mjeseca</li>
+                  <li>&#10003; Plan ishrane</li>
+                  <li>&#10003; Plan treninga</li>
+                  <li>&#10003; Video konsultacije 1h</li>
+                  <li>&#10003; Komunikacija putem whatsapp/viber</li>
+                  <li>&#10003; Video objašnjenja vježbi</li>
+                  <li>&#10003; Dodatna video objašnjena</li>
+                </ul>
+                <a class="anchor-link" href="#vise">više informacija</a>
+            </div>
+            <div class="box-price">
+                <h1>180€</h1>
+                <h6>personalni trening</h6>
+                <ul>
+                  <li>&#10003; 12 treninga</li>
+                  <li>&#10003; Testiranja koja ne možeš obaviti sam</li>
+                  <li>&#10003; Plan ishrane</li>
+                  <li>&#10003; Prijavi se na
+                    +387 61 872 308
+                  </li>
+                </ul>
+                <div class="box-icons">
+                  <a href="https://api.whatsapp.com/send?phone=38761872308" target="_blank">
+                    <img width="55px" src="images/icons/whatsapp.png">
+                  </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="more" id="vise">
+      <h1 class="naslov">Kako funkcioniše i šta je online mentorstvo?
+      </h1>
+      <p class="q-pb-md">Mentorstvo je najbrži i najefikasniji način učenja, izgradnje tijela ili biznisa.
+        Činjenica da vas neko vodi i da se uvijek možete obratiti za pomoć i savjet je neprocijenjiva.
+        Sa mentorom možete uštediti godine vremena, sačuvati se mnogobrojnih grešaka, frustracija i lutanja za
+        relevantnim izvorima informacija.
+      </p>
+      <p class="q-pb-md">
+        Plan treninga ili ishrane je nešto što vam niko ne može prodati na slijepo i ovi planovi se interaktivno
+        mijenjaju iz sedmice u sedmicu. Ishrana se zasniva samo na stvarima koje vi konzumirate i volite.
+        Korekcija tehnike na svim vježbama se radi putem videozapisa koje mentor analizira i tako vas dovodi do idealne
+        forme (ovo je vrlo važna stavka).
+      </p>
+      <p class="q-pb-md">Usudim se reči da je ovaj način saradnje efikasniji od individualnih treninga.</p>
+      <p class="q-pb-md">
+        Sta još uključuje saradnja: <br />
+        Konsultacije 1h putem zoom, viber ili WhatsApp, video objašnjenja vježbi, svakodnevna dostupnost na whatsapp
+        ili viber za pomoć ili savjet oko spremanja obroka, odabira namirnica, trening rutine, edukacija, izgradnja mindseta.
+      </p>
+      <p class="q-pb-md">
+        Detaljnije video pojašnjenje možete pronaći u story highlights na mom instagram
+        <a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTIwMTc1MzU2NTc4ODQ3?story_media_id=2537337773271444940_2214195949&utm_medium=share_sheet" target="_blank" class="profile-link">profilu</a>
+      </p>
+      <p class="material-button">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSedDJWtPBKZFu8gzf1vwX0QvHwfdyMpO04WtoBU19nVCRJPDg/viewform" target="_blank">Prijavi se</a>
+      </p>
+    </section>
+
+    <section class="transformacije" id="transformacije">
+        <h1 class="naslov">Transformacije</h1>
+        <div class="container">
+            <figure class="img-box">
+                <img src="images/tr1.jpg" alt="transformacije">
+            </figure>
+            <figure class="img-box">
+                <img src="images/tr2.jpg" alt="transformacije">
+            </figure>
+            <figure class="img-box">
+                <img src="images/tr3.jpg" alt="transformacije">
+            </figure>
+            <figure class="img-box">
+                <img src="images/tr4.jpg" alt="transformacije">
+            </figure>
+            <figure class="img-box">
+                <img src="images/tr5.jpg" alt="transformacije">
+            </figure>
+            <figure class="img-box">
+                <img src="images/transformations/transformation-1.jpg" alt="transformacije">
+            </figure>
+            <figure class="img-box">
+                <img src="images/tr7.jpg" alt="transformacije">
+            </figure>
+            <figure class="img-box">
+                <img src="images/transformations/transformation-2.jpg" alt="transformacije">
+            </figure>
+            <figure class="img-box">
+                <img src="images/tr9.jpg" alt="transformacije">
+            </figure>
+            <figure class="img-box">
+                <img src="images/tr10.jpg" alt="transformacije">
+            </figure>
+            <figure class="img-box">
+                <img src="images/transformations/transformation-3.jpg" alt="transformacije">
+            </figure>
+            <figure class="img-box">
+                <img src="images/transformations/transformation-4.jpg" alt="transformacije">
+            </figure>
+            <figure class="img-box">
+                <img src="images/transformations/transformation-5.jpg" alt="transformacije">
+            </figure>
+            <figure class="img-box">
+                <img src="images/transformations/transformation-6.jpg" alt="transformacije">
+            </figure>
+            <figure class="img-box">
+                <img src="images/transformations/transformation-7.jpg" alt="transformacije">
+            </figure>
+            <figure class="img-box">
+                <img src="images/transformations/transformation-8.jpg" alt="transformacije">
+            </figure>
+            <figure class="img-box">
+                <img src="images/transformations/transformation-9.jpg" alt="transformacije">
+            </figure>
+        </div>
+        <button id="expand">PRIKAŽI VIŠE</button>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <h1 class="naslov">Šta kažu klijenti</h1>
+        <div class="testimonials-container">
+            <div class="testimonials-box">
+                <p>"Bas mi odgovara da imam organizovan dan. Veliko olakšanje su prilagođeni i jako
+                    jednostavni obroci koje mogu da spremim za svega par minuta"
+                </p>
+                <span class="name">Maja Šehić</span>
+                <span class="profesion">Disc Jockey</span>
+                <i class="fas fa-quote-right"></i>
+                <i class="fas fa-quote-left"></i>
+            </div>
+            <div class="testimonials-box">
+                <p>"Ovo mi je jako čudno, broj na vagi je isti kao prije 3 mjeseca a obim struka
+                    je toliko manji da moram da kupujem novu odjeću"
+                </p>
+                <span class="name">Ivana Gardašević</span>
+                <span class="profesion">Undefined</span>
+                <i class="fas fa-quote-right"></i>
+                <i class="fas fa-quote-left"></i>
+            </div>
+            <div class="testimonials-box">
+                <p>"Takva motivacija i znanje dolazi iz saradnje i komunikacije s tobom, zahvalna
+                    sam što sam baš tebe srela"
+                </p>
+                <span class="name">Lamija Mršo</span>
+                <span class="profesion">Student</span>
+                <i class="fas fa-quote-right"></i>
+                <i class="fas fa-quote-left"></i>
+            </div>
+            <div class="testimonials-box">
+                <p>"Bez ikakvog forsiranja i umaranja na treningu došla sam do figure, snage
+                    (zgibova, skelkova, velike kilaže na čučnju). Bolja energija i fokus su
+                    mi donijeli unaprijeđenje na radnom mjestu"
+                </p>
+                <span class="name">Anida Mumić</span>
+                <span class="profesion">Service Delivery Manager</span>
+                <i class="fas fa-quote-right"></i>
+                <i class="fas fa-quote-left"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="ebooks-section">
+        <h1 class="naslov">E - BOOKS</h1>
+        <div class="ebooks-section__container">
+            <div class="ebooks-section__text-content">
+                <h1 class="component-h1">Opasna knjiga</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, sit! Dolorem, a adipisci. Fugiat autem 
+                    repudiandae temporibus natus, nam minima enim eos ad, nihil error unde! Aliquam, temporibus. Explicabo, dicta.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat porro hic placeat deleniti, aliquam quos quo consequuntur ex 
+                    corporis perferendis odit eligendi officia labore architecto aut expedita mollitia nam nobis.
+                </p>
+            </div>
+            <div class="ebooks-section__img-container"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social">
+            <span class="logo"><img src="images/logo/logo.png" alt="logo" /></span>
+            <div class="sci">
+                <a href="https://www.instagram.com/stingray.sw/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCigBlsVRyJfVHMI25AVmj4Q"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="contactinfo-container">
+            <h1 class="footerheading">Kontakt Info</h1>
+            <div class="contactinfo">
+                <span><i class="fas fa-map-marker-alt"></i> Sarajevo</span>
+                <span><i class="fas fa-phone"></i> +38761-872-308</span>
+                <span><i class="fas fa-envelope"></i> ilhanmuhamedagic@gmail.com</span>
+            </div>
+        </div>
+        <div class="sitemap">
+            <h1 class="footerheading">Sitemap</h1>
+            <div class="nav">
+                <a href="#about">o meni</a>
+                <a href="#planovi">planovi</a>
+                <a href="#transformacije">transformacije</a>
+                <a href="#testimonials">testimonials</a>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <span>&copy; Copyright 2021, sva prava zadržana!</span>
+        <address>Design & development: Muhamed Muhamedagić</address>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
